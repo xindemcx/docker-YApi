@@ -38,7 +38,7 @@ RUN cp /yapi/scripts/start.js ./start.js \
 
 
 ######## 镜像 ########
-FROM node:12.16.3-alpine3.11
+FROM node:17.7-alpine3.15
 
 WORKDIR /yapi
 
